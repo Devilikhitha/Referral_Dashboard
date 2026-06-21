@@ -5,8 +5,9 @@
   "scripts": {
 
      "dev": "vite",
-    "build": "npx vite build",
-    "preview": "npx vite preview"
+    "build": "node node_modules/vite/bin/vite.js build",
+    "preview": "vite preview"
+
   },
   "dependencies": {
     "js-cookie": "^3.0.5",
